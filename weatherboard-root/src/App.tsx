@@ -307,7 +307,7 @@ export default function App() {
                         </div>
                       </MiniCard>
                       <MiniCard>
-                        <h2 className="font-semibold text-lg">
+                        <h2 className="font-semibold text-lg text-center">
                           {weather?.wind?.deg !== undefined
                             ? degToCompass(weather.wind.deg)
                             : "—"}
