@@ -329,7 +329,7 @@ export default function App() {
             className="badge badge-error duration-300 hover:-translate-y-1 text-white hover:cursor-pointer"
             onClick={() => navigate("/version")}
           >
-            Demo v0.5
+            Demo v0.5.1
           </div>
         </footer>
       </div>

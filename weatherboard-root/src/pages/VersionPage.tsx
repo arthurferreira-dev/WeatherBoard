@@ -5,7 +5,7 @@ import { todayDates } from "../utils/date";
 import { Cloud, Copyright } from "lucide-react";
 
 export const VersionPage = () => {
-  const Demo = Version[0][0];
+  const Demo = Version[0][1];
   const year = todayDates("year");
   const contents = [
     "Painel do clima da cidade pesquisada",
@@ -13,6 +13,7 @@ export const VersionPage = () => {
     "Uso de uma API para melhores informações",
     "Trocador de Tema Claro/Escuro",
     "Responsividade para vários aparelhos",
+    "Ícones no site e SEO"
   ];
   const navigate = useNavigate();
 
